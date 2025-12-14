@@ -11,7 +11,7 @@ struct Query{
     int w, d, idx;
 };
 
-const int num_threads = std::thread::hardware_concurrency();
+const int num_threads = std::thread::hardware_concurrency()/2;
 
 void solve(){
     int n, m, k;

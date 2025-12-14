@@ -69,12 +69,12 @@ threads.emplace_back([&, t_id](){
 ## Czasy wykonania
 | | Mój Laptop | Serwer Student |
 | --- | --- | --- |
-| slow.cpp | 10.16s | |
-| optimized.cpp | 5.15s | |
-| optimized2.cpp | 2.45s | |
-| thread.cpp | 1.39s | |
-| thread2.cpp | 1.37s | |
-| omp.cpp | 1.42s | |
-| omp2.cpp | 1.36s | |
+| slow.cpp | 10.16s | 17.54s |
+| optimized.cpp | 5.15s | 8.36s |
+| optimized2.cpp | 2.45s | 7.36s |
+| thread.cpp | 1.39s | 2.90s |
+| thread2.cpp | 1.37s | 2.81s |
+| omp.cpp | 1.42s | 3.34s |
+| omp2.cpp | 1.36s | 3.21s |
 
 
