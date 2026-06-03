@@ -24,4 +24,4 @@ The best variants in this repo are `thread2.cpp` and `omp2.cpp`.
 | `thread2.cpp` | 1.37s | 2.81s |
 | `omp2.cpp` | 1.36s | 3.21s |
 
-The source files are in [src/](src), and the benchmark binaries are built into [build/](build).
+The source files are in [src/](src).
